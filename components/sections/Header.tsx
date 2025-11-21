@@ -16,10 +16,9 @@ export default function Header() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <Link href="/" className="flex items-center space-x-2 mr-6">
-            <div className="h-8 w-8 rounded-full bg-green-600 flex items-center justify-center">
-              <span className="text-white font-bold text-xl">S</span>
-            </div>
-            <span className="font-bold text-xl text-green-700">Sustave</span>
+            
+            {/* <span className="font-bold text-xl text-green-700">Sustave</span> */}
+            <img src="/logos/SustaveLogomark_DeepGreen.svg" className='h-10 w-10'/>
           </Link>
 
           {/* Desktop Navigation */}
