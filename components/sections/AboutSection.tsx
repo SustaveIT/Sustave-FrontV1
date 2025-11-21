@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function AboutSection() {
   return (
    
-      <section className="py-16 md:py-24 bg-gray-50">
+      <section className="py-16 md:py-24 bg-gray-50 bg-green-200">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="order-2 md:order-1">
@@ -30,7 +30,7 @@ export default function AboutSection() {
             </div>
             <div className="relative order-1 md:order-2">
               <Image
-                src="/images/moringa-bg.jfif"
+                src="/images/Moringa-Tree.jpg"
                 alt="Moringa forest"
                 width={600}
                 height={500}
