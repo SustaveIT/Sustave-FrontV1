@@ -6,7 +6,7 @@ export default function SolutionsSection() {
     {
       title: "Screen-to-Green",
       description: "Our Screen to Green model empowers you to take climate action without leaving your screen. Sustave turns online participation into tree planting, helping heal the planet through technology and community.",
-      image: "/solution1.jpg"
+      image: "/images/digital-farming.jpg"
     },
     {
       title: "Source Direct Model",
@@ -16,12 +16,12 @@ export default function SolutionsSection() {
     {
       title: "Ecoshop",
       description: "Our Ecoshop makes shopping sustainable. Each product you buy supports reforestation, carbon offsetting, and green innovation.",
-      image: "/solution3.jpg"
+      image: "/images/Ecoshop.jpg"
     }
   ];
 
   return (
-    <section id="solutions" className="py-20 bg-green-900 text-white">
+    <section id="solutions" className="py-20 bg-green-900 text-white mt-[-2rem]">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
           <div className="flex items-center mb-6">

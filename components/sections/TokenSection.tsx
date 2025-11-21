@@ -12,7 +12,7 @@ export default function TokenSection() {
               <div className="relative">
                 <div className="aspect-[3/2] rounded-2xl overflow-hidden bg-white p-8 flex items-center justify-center">
                   <img 
-                    src="/sus-token.png" 
+                    src="/images/Sus-coin.png" 
                     alt="SUS Token" 
                     className="max-h-96 w-auto"
                   />
