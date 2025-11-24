@@ -34,7 +34,7 @@ export default function PartnerSection() {
             <div className="md:w-1/2 relative">
               <div className="aspect-[3/2] rounded-2xl overflow-hidden">
                 <img 
-                  src="/partner.jpg" 
+                  src="/images/smart-farming.jpg" 
                   alt="Partner with Sustave" 
                   className="w-full h-full object-cover"
                 />

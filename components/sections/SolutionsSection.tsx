@@ -11,7 +11,7 @@ export default function SolutionsSection() {
     {
       title: "Source Direct Model",
       description: "With our Source Direct Channel, you get food items at unbeatable rates directly from farmers and suppliers. Fast, easy and convenient.",
-      image: "/solution2.jpg"
+      image: "/images/source.jpeg"
     },
     {
       title: "Ecoshop",
