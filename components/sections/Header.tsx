@@ -25,53 +25,53 @@ export default function Header() {
           <nav className="hidden md:flex items-center space-x-8">
             <Link 
               href="#" 
-              className="text-[12px]  text-muted-foreground hover:text-foreground transition-colors"
+              className="text-sm  text-muted-foreground hover:text-foreground transition-colors text-green-900"
             >
               Home
             </Link>
             <Link 
               href="#about" 
-              className="text-[12px]  text-muted-foreground hover:text-foreground transition-colors"
+              className="text-sm  text-muted-foreground hover:text-foreground transition-colors text-green-900"
             >
               About us
             </Link>
             <Link 
               href="#solutions" 
-              className="text-[12px]  text-muted-foreground hover:text-foreground transition-colors"
+              className="text-sm  text-muted-foreground hover:text-foreground transition-colors text-green-900"
             >
               Tokenomics
             </Link>
             <Link 
               href="#token" 
-              className="text-[12px]  text-muted-foreground hover:text-foreground transition-colors"
+              className="text-sm  text-muted-foreground hover:text-foreground transition-colors text-green-900"
             >
               Whitepaper
             </Link>
             <Link 
               href="#partner" 
-              className="text-[12px]   text-muted-foreground hover:text-foreground transition-colors"
+              className="text-sm   text-muted-foreground hover:text-foreground transition-colors text-green-900"
             >
               Become a Partner
             </Link>
             <Link 
               href="#" 
-              className="text-[12px]  text-muted-foreground hover:text-foreground transition-colors"
+              className="text-sm text-green-900  text-muted-foreground hover:text-foreground"
             >
               Support Us
             </Link>
             <Link 
               href="#" 
-              className="text-[12px]  text-muted-foreground hover:text-foreground transition-colors"
+              className="text-sm  text-muted-foreground hover:text-foreground transition-colors text-green-900"
             >
               Contact Us
             </Link>
           </nav>
 
           <div className="flex items-center space-x-4">
-            <Button variant="outline" className="hidden md:flex">
+            <Button variant="outline" className="hidden md:flex bg-green-500 text-white">
               Get Started
             </Button>
-            <Button className="hidden md:flex">Log in</Button>
+            <Button className="hidden md:flex bg-gray-50 text-green-900 hover:text-gray-100">Log in</Button>
             
             {/* Mobile Menu Button */}
             <Sheet open={isOpen} onOpenChange={setIsOpen}>
@@ -86,49 +86,49 @@ export default function Header() {
                   <nav className="flex flex-col space-y-4 mt-8">
                     <Link 
                       href="#" 
-                      className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+                      className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors text-green-900"
                       onClick={() => setIsOpen(false)}
                     >
                       Home
                     </Link>
                     <Link 
                       href="#about" 
-                      className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+                      className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors text-green-900"
                       onClick={() => setIsOpen(false)}
                     >
                       About us
                     </Link>
                     <Link 
                       href="#solutions" 
-                      className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+                      className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors text-green-900"
                       onClick={() => setIsOpen(false)}
                     >
                       Tokenomics
                     </Link>
                     <Link 
                       href="#token" 
-                      className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+                      className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors text-green-900"
                       onClick={() => setIsOpen(false)}
                     >
                       Whitepaper
                     </Link>
                     <Link 
                       href="#partner" 
-                      className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+                      className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors text-green-900"
                       onClick={() => setIsOpen(false)}
                     >
                       Become a Partner
                     </Link>
                     <Link 
                       href="#" 
-                      className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+                      className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors text-green-900"
                       onClick={() => setIsOpen(false)}
                     >
                       Support Us
                     </Link>
                     <Link 
                       href="#" 
-                      className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+                      className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors text-green-900"
                       onClick={() => setIsOpen(false)}
                     >
                       Contact Us
@@ -136,7 +136,7 @@ export default function Header() {
                   </nav>
                   
                   <div className="mt-auto flex flex-col space-y-3">
-                    <Button variant="outline" className="w-full">
+                    <Button variant="outline" className="w-full bg-green-900 text-white">
                       Get Started
                     </Button>
                     <Button className="w-full">
