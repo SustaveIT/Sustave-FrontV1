@@ -30,8 +30,8 @@ export default function Footer() {
     <footer className="bg-green-900 text-white pt-16 pb-8">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
-            <div className="col-span-1 md:col-span-1">
+          <div className="grid grid-cols-1 md:grid-cols-5 gap-8 mb-12">
+            <div className="col-span-1 md:col-span-2">
               <div className="flex items-center space-x-2 mb-4">
                 {/* <div className="h-8 w-8 rounded-full bg-green-600 flex items-center justify-center">
                   <span className="text-white font-bold text-xl">S</span>
@@ -70,28 +70,28 @@ export default function Footer() {
                   size="icon"
                   className="h-8 w-8 rounded-full border-green-700"
                 >
-                  <Facebook className="h-4 w-4 text-green-200" />
+                  <Facebook className="h-4 w-4 text-green-600" />
                 </Button>
                 <Button
                   variant="outline"
                   size="icon"
                   className="h-8 w-8 rounded-full border-green-700"
                 >
-                  <Instagram className="h-4 w-4 text-green-200" />
+                  <Instagram className="h-4 w-4 text-green-600" />
                 </Button>
                 <Button
                   variant="outline"
                   size="icon"
                   className="h-8 w-8 rounded-full border-green-700"
                 >
-                  <Twitter className="h-4 w-4 text-green-200" />
+                  <Twitter className="h-4 w-4 text-green-600" />
                 </Button>
                 <Button
                   variant="outline"
                   size="icon"
                   className="h-8 w-8 rounded-full border-green-700"
                 >
-                  <Linkedin className="h-4 w-4 text-green-200" />
+                  <Linkedin className="h-4 w-4 text-green-600" />
                 </Button>
               </div>
             </div>
@@ -145,7 +145,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="border-t border-green-800 pt-6 text-center text-sm text-green-400">
+          <div className="border-t border-green-800 pt-6 text-center text-sm text-green-50">
             <p>© {new Date().getFullYear()} Sustave. All Rights Reserved.</p>
           </div>
         </div>
