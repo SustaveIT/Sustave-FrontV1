@@ -27,43 +27,43 @@ export default function Header() {
           <nav className="hidden md:flex items-center space-x-8">
             <Link
               href="#hero"
-              className="text-sm   hover:text-foreground transition-colors text-green-900"
+              className="text-[0.8rem]   hover:text-foreground transition-colors text-green-900"
             >
               Home
             </Link>
             <Link
               href="#about"
-              className="text-sm   hover:text-foreground transition-colors text-green-900"
+              className="text-[0.8rem]   hover:text-foreground transition-colors text-green-900"
             >
               About us
             </Link>
             <Link
               href="#solutions"
-              className="text-sm   hover:text-foreground transition-colors text-green-900"
+              className="text-[0.8rem]   hover:text-foreground transition-colors text-green-900"
             >
               Tokenomics
             </Link>
             <Link
               href="#token"
-              className="text-sm   hover:text-foreground transition-colors text-green-900"
+              className="text-[0.8rem]   hover:text-foreground transition-colors text-green-900"
             >
               Whitepaper
             </Link>
             <Link
               href="#partner"
-              className="text-sm    hover:text-foreground transition-colors text-green-900"
+              className="text-[0.8rem]    hover:text-foreground transition-colors text-green-900"
             >
               Become a Partner
             </Link>
             <Link
               href="#"
-              className="text-sm text-green-900   hover:text-foreground text-green-900 "
+              className="text-[0.8rem] text-green-900   hover:text-foreground text-green-900 "
             >
               Support Us
             </Link>
             <Link
               href="#"
-              className="text-sm   hover:text-foreground transition-colors text-green-900"
+              className="text-[0.8rem]   hover:text-foreground transition-colors text-green-900"
             >
               Contact Us
             </Link>
