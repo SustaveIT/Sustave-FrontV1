@@ -37,7 +37,12 @@ export default function Footer() {
                   <span className="text-white font-bold text-xl">S</span>
                 </div>
                 <span className="font-bold text-xl">Sustave</span> */}
-                <img src="/logos/SustaveLogomark_White.svg" alt="" className="w-20 h-20" />
+                <img
+                  src="/logos/SustaveLogomark_White.svg"
+                  alt=""
+                  className="w-20 h-20"
+                  data-aos="zoom-in-left"
+                />
               </div>
 
               <p className="text-green-200 mb-4">
@@ -64,7 +69,7 @@ export default function Footer() {
                 </div>
               </div>
 
-              <div className="flex space-x-3">
+              <div className="flex space-x-3" data-aos="zoom-in">
                 <Button
                   variant="outline"
                   size="icon"

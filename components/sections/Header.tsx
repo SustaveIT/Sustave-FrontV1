@@ -73,6 +73,7 @@ export default function Header() {
             <Button
               variant="outline"
               className="hidden md:flex bg-green-500 text-white"
+              data-aos="zoom-in"
             >
               Get Started
             </Button>

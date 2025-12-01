@@ -21,21 +21,30 @@ export default function SolutionsSection() {
   ];
 
   return (
-    <section id="solutions" className="py-20 bg-green-900 text-white mt-[-2rem]">
+    <section
+      id="solutions"
+      className="py-20 bg-green-900 text-white mt-[-2rem]"
+    >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
           <div className="flex items-center mb-6">
-            <span className="px-3 py-1 bg-green-700 rounded text-sm font-medium">OUR SOLUTIONS</span>
+            <span className="px-3 py-1 bg-green-700 rounded text-sm font-medium">
+              OUR SOLUTIONS
+            </span>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {solutions.map((solution, index) => (
-              <Card key={index} className="bg-green-800 border-green-700">
+              <Card
+                key={index}
+                className="bg-green-800 border-green-700"
+                data-aos="fade-up"
+              >
                 <CardHeader>
                   <div className="aspect-video mb-4 rounded-xl overflow-hidden">
-                    <img 
-                      src={solution.image} 
-                      alt={solution.title} 
+                    <img
+                      src={solution.image}
+                      alt={solution.title}
                       className="w-full h-full object-cover"
                     />
                   </div>

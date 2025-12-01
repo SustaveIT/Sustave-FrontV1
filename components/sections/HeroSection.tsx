@@ -21,7 +21,10 @@ export default function HeroSection() {
           Join us in removing Carbon from the air and shaping a better future.
         </h1>
 
-        <p className="text-lg max-w-2xl mb-8 text-white mt-8">
+        <p
+          className="text-lg max-w-2xl mb-8 text-white mt-8"
+          data-aos="fade-up"
+        >
           Sustave weaponizes moringa to fight climate change and power a
           circular economy enabling global participation in incentivized climate
           action
@@ -30,6 +33,7 @@ export default function HeroSection() {
         <Button
           size="lg"
           className="bg-green-600 hover:bg-green-700 text-white text-lg px-8 py-6 rounded-full cursor-pointer"
+          data-aos="zoom-in"
         >
           Join us
         </Button>

@@ -85,3 +85,6 @@ html {
     @apply bg-background text-foreground;
   }
 }
+
+@import "aos/dist/aos.css";
+

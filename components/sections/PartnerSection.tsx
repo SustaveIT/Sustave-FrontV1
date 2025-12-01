@@ -12,38 +12,43 @@ export default function PartnerSection() {
   ];
 
   return (
-    <section id="partner" className="py-20" >
+    <section id="partner" className="py-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="md:w-1/2 space-y-6">
-              <h2 className="text-3xl font-bold">Become a Partner</h2>
-              
+              <h2 className="text-3xl font-bold" data-aos="zoom-in">
+                Become a Partner
+              </h2>
+
               <p className="text-muted-foreground">
-                Partner with Sustave to drive real climate impact. Together, we can build a better future.
+                Partner with Sustave to drive real climate impact. Together, we
+                can build a better future.
               </p>
-              
-              <Button 
-                size="lg" 
+
+              <Button
+                size="lg"
                 className="bg-green-600 hover:bg-green-700 text-white"
+                data-aos="fade-up"
               >
                 Get in touch
               </Button>
             </div>
-            
+
             <div className="md:w-1/2 relative">
               <div className="aspect-[3/2] rounded-2xl overflow-hidden">
-                <img 
-                  src="/images/smart-farming.jpg" 
-                  alt="Partner with Sustave" 
+                <img
+                  src="/images/smart-farming.jpg"
+                  alt="Partner with Sustave"
                   className="w-full h-full object-cover"
+                  data-aos="zoom-in"
                 />
               </div>
-              
+
               <div className="absolute -bottom-4 left-4 flex flex-wrap gap-2">
                 {partnerRoles.map((role, index) => (
-                  <Badge 
-                    key={index} 
+                  <Badge
+                    key={index}
                     className={cn(role.color, "text-sm px-3 py-1.5")}
                   >
                     {role.title}

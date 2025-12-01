@@ -11,29 +11,36 @@ export default function TokenSection() {
             <div className="md:w-1/2">
               <div className="relative">
                 <div className="aspect-[3/2] rounded-2xl overflow-hidden bg-white p-8 flex items-center justify-center">
-                  <img 
-                    src="/images/Sus-coin.png" 
-                    alt="SUS Token" 
+                  <img
+                    src="/images/Sus-coin.png"
+                    alt="SUS Token"
                     className="max-h-96 w-auto"
+                    data-aos="zoom-in"
                   />
                 </div>
               </div>
             </div>
-            
+
             <div className="md:w-1/2 space-y-6">
-              <h2 className="text-3xl font-bold">Introducing SUS <span className="text-green-600">our governance token</span></h2>
-              
+              <h2 className="text-3xl font-bold">
+                Introducing SUS{" "}
+                <span className="text-green-600">our governance token</span>
+              </h2>
+
               <p className="text-muted-foreground">
-                The SUS Token is the first digital asset designed to plant trees and fight carbon emissions.
+                The SUS Token is the first digital asset designed to plant trees
+                and fight carbon emissions.
               </p>
-              
+
               <p className="text-muted-foreground">
-                For every SUS you acquire, a tree is planted. For every tree planted, a SUS is given. Either way, you win.
+                For every SUS you acquire, a tree is planted. For every tree
+                planted, a SUS is given. Either way, you win.
               </p>
-              
-              <Button 
-                size="lg" 
+
+              <Button
+                size="lg"
                 className="bg-green-600 hover:bg-green-700 text-white"
+                data-aos="fade-up"
               >
                 Learn More
               </Button>
