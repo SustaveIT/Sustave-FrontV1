@@ -3,7 +3,10 @@ import { cn } from '@/lib/utils';
 
 export default function HeroSection() {
   return (
-    <section className="relative h-[80vh] min-h-[100vh] w-full overflow-hidden" id="hero">
+    <section
+      className="relative h-[80vh] min-h-[100vh] w-full overflow-hidden"
+      id="hero"
+    >
       <div className="absolute inset-0">
         <div className="absolute inset-0  z-10  bg-gradient-to-t from-black/90 via-transparent to-transparent" />
         <img
@@ -19,8 +22,9 @@ export default function HeroSection() {
         </h1>
 
         <p className="text-lg max-w-2xl mb-8 text-white mt-8">
-          Together, we can make a change. Sustave is leading a global effort to
-          pull carbon from the air and protect the earth.
+          Sustave weaponizes moringa to fight climate change and power a
+          circular economy enabling global participation in incentivized climate
+          action
         </p>
 
         <Button
