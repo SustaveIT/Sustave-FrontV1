@@ -1,4 +1,6 @@
 // app/page.tsx
+"use client";
+
 import Header from '@/components/sections/Header';
 import HeroSection from '@/components/sections/HeroSection';
 import AboutSection from '@/components/sections/AboutSection';

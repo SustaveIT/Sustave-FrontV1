@@ -1,3 +1,5 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Card, CardContent } from "@/components/ui/card";
@@ -74,6 +76,9 @@ export default function Footer() {
                   variant="outline"
                   size="icon"
                   className="h-8 w-8 rounded-full border-green-700"
+                  onClick={() =>
+                    window.open("https://www.facebook.com/share/19vewXCEmW/", "_blank")
+                  }
                 >
                   <Facebook className="h-4 w-4 text-green-600" />
                 </Button>
@@ -81,6 +86,9 @@ export default function Footer() {
                   variant="outline"
                   size="icon"
                   className="h-8 w-8 rounded-full border-green-700"
+                  onClick={() =>
+                    window.open("https://www.instagram.com/sustaveafrica?igsh=Z2lxemJ2d2ZiNjNn", "_blank")
+                  }
                 >
                   <Instagram className="h-4 w-4 text-green-600" />
                 </Button>
@@ -95,6 +103,9 @@ export default function Footer() {
                   variant="outline"
                   size="icon"
                   className="h-8 w-8 rounded-full border-green-700"
+                  onClick={() =>
+                    window.open("https://www.linkedin.com/company/sustaveafrica/", "_blank")
+                  }
                 >
                   <Linkedin className="h-4 w-4 text-green-600" />
                 </Button>
