@@ -16,63 +16,70 @@ export default function Header() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <Link href="/" className="flex items-center space-x-2 mr-6">
-            
             {/* <span className="font-bold text-xl text-green-700">Sustave</span> */}
-            <img src="/logos/SustaveLogomark_DeepGreen.svg" className='h-10 w-10'/>
+            <img
+              src="/logos/SustaveLogomark_DeepGreen.svg"
+              className="h-10 w-10"
+            />
           </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <Link 
-              href="#" 
-              className="text-sm  text-muted-foreground hover:text-foreground transition-colors text-green-900"
+            <Link
+              href="#"
+              className="text-sm  text-muted-foreground hover:text-foreground transition-colors text-green-500"
             >
               Home
             </Link>
-            <Link 
-              href="#about" 
-              className="text-sm  text-muted-foreground hover:text-foreground transition-colors text-green-900"
+            <Link
+              href="#about"
+              className="text-sm  text-muted-foreground hover:text-foreground transition-colors text-green-500"
             >
               About us
             </Link>
-            <Link 
-              href="#solutions" 
-              className="text-sm  text-muted-foreground hover:text-foreground transition-colors text-green-900"
+            <Link
+              href="#solutions"
+              className="text-sm  text-muted-foreground hover:text-foreground transition-colors text-green-500"
             >
               Tokenomics
             </Link>
-            <Link 
-              href="#token" 
-              className="text-sm  text-muted-foreground hover:text-foreground transition-colors text-green-900"
+            <Link
+              href="#token"
+              className="text-sm  text-muted-foreground hover:text-foreground transition-colors text-green-500"
             >
               Whitepaper
             </Link>
-            <Link 
-              href="#partner" 
-              className="text-sm   text-muted-foreground hover:text-foreground transition-colors text-green-900"
+            <Link
+              href="#partner"
+              className="text-sm   text-muted-foreground hover:text-foreground transition-colors text-green-500"
             >
               Become a Partner
             </Link>
-            <Link 
-              href="#" 
-              className="text-sm text-green-900  text-muted-foreground hover:text-foreground"
+            <Link
+              href="#"
+              className="text-sm text-green-900  text-muted-foreground hover:text-foreground text-green-500 "
             >
               Support Us
             </Link>
-            <Link 
-              href="#" 
-              className="text-sm  text-muted-foreground hover:text-foreground transition-colors text-green-900"
+            <Link
+              href="#"
+              className="text-sm  text-muted-foreground hover:text-foreground transition-colors text-green-500"
             >
               Contact Us
             </Link>
           </nav>
 
           <div className="flex items-center space-x-4">
-            <Button variant="outline" className="hidden md:flex bg-green-500 text-white">
+            <Button
+              variant="outline"
+              className="hidden md:flex bg-green-500 text-white"
+            >
               Get Started
             </Button>
-            <Button className="hidden md:flex bg-gray-50 text-green-900 hover:text-gray-100">Log in</Button>
-            
+            <Button className="hidden md:flex bg-gray-50 text-green-900 hover:text-gray-100">
+              Log in
+            </Button>
+
             {/* Mobile Menu Button */}
             <Sheet open={isOpen} onOpenChange={setIsOpen}>
               <SheetTrigger asChild>
@@ -84,64 +91,65 @@ export default function Header() {
               <SheetContent side="right" className="w-[300px] sm:w-[400px]">
                 <div className="flex flex-col h-full">
                   <nav className="flex flex-col space-y-4 mt-8">
-                    <Link 
-                      href="#" 
-                      className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors text-green-900"
+                    <Link
+                      href="#"
+                      className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors text-green-500"
                       onClick={() => setIsOpen(false)}
                     >
                       Home
                     </Link>
-                    <Link 
-                      href="#about" 
-                      className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors text-green-900"
+                    <Link
+                      href="#about"
+                      className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors text-green-500"
                       onClick={() => setIsOpen(false)}
                     >
                       About us
                     </Link>
-                    <Link 
-                      href="#solutions" 
-                      className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors text-green-900"
+                    <Link
+                      href="#solutions"
+                      className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors text-green-500"
                       onClick={() => setIsOpen(false)}
                     >
                       Tokenomics
                     </Link>
-                    <Link 
-                      href="#token" 
-                      className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors text-green-900"
+                    <Link
+                      href="#token"
+                      className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors text-green-500"
                       onClick={() => setIsOpen(false)}
                     >
                       Whitepaper
                     </Link>
-                    <Link 
-                      href="#partner" 
-                      className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors text-green-900"
+                    <Link
+                      href="#partner"
+                      className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors text-green-500"
                       onClick={() => setIsOpen(false)}
                     >
                       Become a Partner
                     </Link>
-                    <Link 
-                      href="#" 
-                      className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors text-green-900"
+                    <Link
+                      href="#"
+                      className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors text-green-500"
                       onClick={() => setIsOpen(false)}
                     >
                       Support Us
                     </Link>
-                    <Link 
-                      href="#" 
-                      className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors text-green-900"
+                    <Link
+                      href="#"
+                      className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors text-green-500"
                       onClick={() => setIsOpen(false)}
                     >
                       Contact Us
                     </Link>
                   </nav>
-                  
+
                   <div className="mt-auto flex flex-col space-y-3">
-                    <Button variant="outline" className="w-full bg-green-900 text-white">
+                    <Button
+                      variant="outline"
+                      className="w-full bg-green-900 text-white"
+                    >
                       Get Started
                     </Button>
-                    <Button className="w-full">
-                      Log in
-                    </Button>
+                    <Button className="w-full">Log in</Button>
                   </div>
                 </div>
               </SheetContent>
