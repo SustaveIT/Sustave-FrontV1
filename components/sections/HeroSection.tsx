@@ -3,11 +3,11 @@ import { cn } from '@/lib/utils';
 
 export default function HeroSection() {
   return (
-    <section className="relative h-[80vh] min-h-[100vh] w-full overflow-hidden">
+    <section className="relative h-[80vh] min-h-[100vh] w-full overflow-hidden" id="hero">
       <div className="absolute inset-0">
         <div className="absolute inset-0  z-10  bg-gradient-to-t from-black/90 via-transparent to-transparent" />
         <img
-          src="/images/moringa-Farm.jpg"
+          src="/images//Moringa-Farm.jpg"
           alt="Sustainable agriculture landscape"
           className="h-full w-full object-cover "
         />
