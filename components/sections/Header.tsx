@@ -1,16 +1,19 @@
-'use client';
+"use client";
 
-import { Button } from '@/components/ui/button';
-import { ScrollArea } from '@/components/ui/scroll-area';
-import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
-import { Menu } from 'lucide-react';
-import Link from 'next/link';
-import { useState } from 'react';
-import { cn } from '@/lib/utils';
+import { Button } from "@/components/ui/button";
+import { ScrollArea } from "@/components/ui/scroll-area";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Menu } from "lucide-react";
+import Link from "next/link";
+import { useState } from "react";
+import { cn } from "@/lib/utils";
+
+import { useRouter } from "next/navigation";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
-  
+  const router = useRouter();
+
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -70,13 +73,15 @@ export default function Header() {
           </nav>
 
           <div className="flex items-center space-x-4">
-            <Button
-              variant="outline"
-              className="hidden md:flex bg-green-500 text-white"
-              data-aos="zoom-in"
-            >
-              Get Started
-            </Button>
+            <Link href={"/auth/register"}>
+              <Button
+                variant="outline"
+                className="hidden md:flex bg-green-500 text-white"
+                data-aos="zoom-in"
+              >
+                Get Started
+              </Button>
+            </Link>
             <Button className="hidden md:flex bg-gray-50 text-green-900 hover:text-gray-100">
               Log in
             </Button>
@@ -147,6 +152,7 @@ export default function Header() {
                     <Button
                       variant="outline"
                       className="w-full bg-green-900 text-white"
+                      onClick={() => router.push("/auth/register")}
                     >
                       Get Started
                     </Button>
